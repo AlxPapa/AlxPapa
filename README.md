@@ -3,7 +3,7 @@
 > 📚 I’m currently learning a bit of python and trying to work on test suites including python & selenium stack ,<br>
      also and moving closer towards to CI/CD testing pipelines creation /integration.<br><p>
      This is my workspace for small projects for myself ,so i will keep expanding and include more projects on this repo in the early future</p>
-- 📫 Ways to reach me  : <br>
+> 📫 Ways to reach me  : <br>
   📧 alexandros.papadopls@gmail.com <br>
   📃 https://linkedin.com/in/alexandros-papadopoulos-b76a74108 <br>
   🔗 https://wiza.co/d/cognizant/bf7e/alexandros-papadopoulos
