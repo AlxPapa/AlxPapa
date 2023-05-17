@@ -1,0 +1,75 @@
+from behave import given, when, then
+
+# Scenario 1
+@given('I am on the Facebook login page')
+def step_impl(context):
+    # code to navigate to the Facebook login page
+    pass
+
+@when('I enter my valid email or phone number')
+def step_impl(context):
+    # code to enter a valid email or phone number
+    pass
+
+@when('I enter my valid password')
+def step_impl(context):
+    # code to enter a valid password
+    pass
+
+@when('I click on the login button')
+def step_impl(context):
+    # code to click on the login button
+    pass
+
+@then('I should be redirected to the Facebook home page')
+def step_impl(context):
+    # code to check if the user is on the Facebook home page
+    pass
+
+# Scenario 2
+@when('I enter my invalid email or phone number')
+def step_impl(context):
+    # code to enter an invalid email or phone number
+    pass
+
+@when('I enter my invalid password')
+def step_impl(context):
+    # code to enter an invalid password
+    pass
+
+@then('I should see an error message')
+def step_impl(context):
+    # code to check if an error message is displayed
+    pass
+
+# Scenario 3
+@when('I click on the "Forgot Password" link')
+def step_impl(context):
+    # code to click on the "Forgot Password" link
+    pass
+
+@then('I should be redirected to the password reset page')
+def step_impl(context):
+    # code to check if the user is on the password reset page
+    pass
+
+# Scenario 4
+@when('I click on the "Log in with Facebook" button')
+def step_impl(context):
+    # code to click on the "Log in with Facebook" button
+    pass
+
+@when('I enter my Facebook account email or phone number')
+def step_impl(context):
+    # code to enter a Facebook account email or phone number
+    pass
+
+@when('I enter my Facebook account password')
+def step_impl(context):
+    # code to enter a Facebook account password
+    pass
+
+@then('I should be redirected to the Facebook home page')
+def step_impl(context):
+    # code to check if the user is on the Facebook home page
+    pass
