@@ -1,0 +1,28 @@
+Feature: Facebook Login
+Scenario: Login with valid credentials
+Given I am on the Facebook login page
+When I enter my valid email or phone number
+And I enter my valid password
+And I click on the login button
+Then I should be redirected to the Facebook home page
+
+Scenario: Login with invalid credentials
+Given I am on the Facebook login page
+When I enter my invalid email or phone number
+And I enter my invalid password
+And I click on the login button
+Then I should see an error message
+
+Scenario: Forgot Password
+Given I am on the Facebook login page
+When I click on the "Forgot Password" link
+Then I should be redirected to the password reset page
+
+Scenario: Login with Facebook account
+Given I am on the Facebook login page
+When I click on the "Log in with Facebook" button
+Then I should be redirected to the Facebook login page
+And I enter my Facebook account email or phone number
+And I enter my Facebook account password
+And I click on the login button
+Then I should be redirected to the Facebook home page
